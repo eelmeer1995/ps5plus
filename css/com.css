@@ -1,0 +1,57 @@
+*{
+	margin:12px;
+	padding:0px;
+}
+body
+{
+		background: url(../images/fondd.png);
+		background-attachment: fixed;
+}
+header{
+	height:10px;
+	text-align: center;
+	color:#870200;
+	text-shadow: 3px 2px;
+	font-size: 20px
+}
+section{
+	background:#ffffff;
+	opacity: 0.8;
+	height:650px;
+	width: 70%;
+	float: left;
+	margin: 10px;
+	border-radius:20px;
+}
+aside{
+	height: 650px;
+	width: 20%;
+	float: right;
+	background:#ffffff;
+	opacity: 0.8;
+	margin: 10px;
+	border-radius:20px;
+	text-align:center;
+	
+}
+.publi li
+{
+	margin: 0px;
+}
+.publi
+{
+	margin: auto;
+	list-style: none;
+	box-sizing: border-box;
+}
+h2{
+	text-align: center;
+}
+.gale img
+{
+	width: 30%;
+	height: 250px;
+	float: right;
+	border-radius:20px;
+
+}

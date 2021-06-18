@@ -1,0 +1,64 @@
+@charset "utf-8";
+*{
+	margin:18px;
+	padding:0px;
+}
+body
+{
+		background: url(../images/fondd.png);
+		background-attachment: fixed;
+}
+header{
+	height:10px;
+	text-align: center;
+	color:#870200;
+	text-shadow: 3px 2px;
+	font-size: 20px
+}
+nav
+{
+	height:36px;
+	width:96%;
+	opacity: 0.9;
+	background:#1E1E25;
+	border-radius: 30px;
+	font-family: Times New Roman;
+	text-align: center;
+	padding: 0px;
+	color:white;	
+}
+.galeria{
+	background:url(../img/mad.jpg);
+	width:50%;
+	margin: auto;
+	list-style: none;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+}
+.galeria li{
+	margin: 0px;
+}
+.galeria img{
+width: 250px;
+height: 200px;
+border-radius:15px;
+text-align:center;	
+}
+.galeria2{
+	background:url(../img/mad.jpg);
+	width:50%;
+	margin: auto;
+	list-style: none;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+}
+.galeria2 li{
+	margin: 0px;
+}
+.galeria2 img{
+width: 250px;
+height: 200px;
+border-radius:15px;	
+}

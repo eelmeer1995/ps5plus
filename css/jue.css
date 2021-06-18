@@ -1,0 +1,96 @@
+@charset "utf-8";
+*{
+	margin:10px;
+	padding:0px;
+}
+body
+{
+		background: url(../images/fondd.png);
+		background-attachment: fixed;
+}
+header{
+	height:70px;
+	text-align: center;
+	color:white;
+	text-shadow: 3px 2px;
+	font-size: 30px
+}
+
+section{
+	
+	background:# ffffff;
+	height: 500 px;
+	width: 95%;
+	margin: 10px;
+	border-radius:20px;
+	color: white;
+}
+
+.gale img
+{
+	width: 30%;
+	height: 250px;
+	float: right;
+	border-radius:20px;
+
+}
+
+footer {
+width: 940px;
+margin: 0 auto;
+clear: both;
+}
+.footer-segment {
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+width: 180px;
+
+}
+
+footer aside h4 {
+color: #faf0e6;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+footer ul {
+list-style: none;
+margin: -15px 0;
+}
+
+footer a:link, footer a:visited {
+color: #BBCFE8;
+}
+
+footer a:hover { 
+text-decoration:underline; 
+}
+
+footer p {
+margin-top: -15px;
+color: #faf0e6;
+}
+#footer-area {
+background:#0BDC7A;
+color:#FFF;
+font-size:90%;
+padding:10px 0;
+overflow:hidden;
+/* curved border radius */
+-moz-border-radius-bottomright:10px;
+-moz-border-radius-bottomleft:10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:10px;
+}
+table {
+   border-collapse: separate;
+   border-spacing: 5px;
+   background: #ED4907 ;
+   color: #fff;
+   border: 1;
+}
+td, tr {
+   background: #fff;
+   color: #000;
+}

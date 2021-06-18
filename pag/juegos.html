@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/jue.css">
+<meta charset="utf-8"/>
+<script>
+ function total()
+ {
+	var nu1=document.getElementById('n1').value;
+	var nu2=document.getElementById('n2').value;
+	var nu3=document.getElementById('n3').value;
+	var nu4=document.getElementById('n4').value;
+	var nu5=document.getElementById('n5').value;
+	var a=7000;
+	var e=8000;
+	var i=800;
+	var o=550;
+	var u=2000;
+	var t=(parseInt(nu1)*7000)+(parseInt(nu2)*8000)+(parseInt(nu3)*800)+(parseInt(nu4)*550)+(parseInt(nu5)*2000);
+	alert("El total de se compra es : "+t+" Bolivianos.");
+	alert("Pase a la Seccion de Pagos para Completar su Compra. ");
+ }
+</script>
+</head>
+<body>
+<header>
+<h1>
+TIENDA On Line
+</h1>
+</header>
+<br>
+<section>
+<ul class="gale">
+<img src="../gif/entr.gif" >
+<h2>TARIFAS:</h2>
+<table>
+<tr>
+  <td><strong>ITEM</strong></td>
+  <td><strong>PRECIO (Bs)</strong></td>
+</tr>
+<tr>
+	<td>Consola Estandar</td>
+	<td>7.000.-</td>
+</tr>
+<tr>
+	<td>Consola Digital</td>
+	<td>8.000.-</td>
+</tr>
+<tr>
+	<td>Mando Dual-shock</td>
+	<td>800.-</td>
+</tr>
+<tr>
+	<td>Audifonos (3D)</td>
+	<td>550.-</td>
+</tr>
+<tr>
+	<td>Camara HD - PS5</td>
+	<td>2.000.-</td>
+</tr>
+</table>
+</ul>
+<form>
+  <h2>ESCOJA SU PRODUCTO:</h2>
+  <input type="checkbox"  >CONSOLA PS5 ESTANDDAR</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantidad:<input type="text" id="n1"/><br>
+  <input type="checkbox"  >CONSOLA PS5 DIGITAL</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantidad:<input type="text" id="n2"/><br>
+  <input type="checkbox"  >MANDO DUAL-SHOCK</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantidad:<input type="text" id="n3"/><br>
+  <input type="checkbox"  >AUDIFONOS</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantidad:<input type="text" id="n4"/><br>
+  <input type="checkbox"  >CAMARA HD - PS5</input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cantidad:<input type="text" id="n5"/><br>
+  <center>
+  <button onclick="total()">AGREGAR AL CARRITO</button>
+  <input type="reset" value="BORRAR"/>
+  </center>
+</form>
+</section>
+</body>
+<footer>
+<section id="footer-area">
+		<section id="footer-outer-block">
+			<aside class="footer-segment">
+				<h4>Diseñado por :</h4>
+					<ul>
+						<li>Elmer Yesid Leandro Ali</li>
+						<li>Laboratorio de Computacion-INF 113</li>
+						<li><a href="#"><i>eelmeer.yes@gmail.com</i></a></li>
+					</ul>
+			</aside>
+			
+			<aside class="footer-segment">
+			<h4>Dererchos Resevados</h4>
+				<p>&copy; 2021 copy.com</p>
+			</aside><!-- Fin de #fourth footer segment -->
+		</section><!-- Fin de footer-outer-block -->
+	</section><!-- Fin de footer-area -->
+</footer>
+</html>
